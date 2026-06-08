@@ -17,3 +17,12 @@ The idea of this project is to realize a simple way to examine and understand th
 ## Dataset
 
 Manufacturing Downtime Dataset (Soda Bottling Production Line)
+
+## KPIs
+
+- Total Production
+- Downtime Minutes
+- Downtime by Cause
+- Production Time
+- Average Batch Duration
+- Production by Product
