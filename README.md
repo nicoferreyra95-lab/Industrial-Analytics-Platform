@@ -26,3 +26,6 @@ Manufacturing Downtime Dataset (Soda Bottling Production Line)
 - Production Time
 - Average Batch Duration
 - Production by Product
+
+## Notations
+_Calculating time for each batch to be produced, an issue was discovered. Time resulted <0 when the batch finished after midnight. This issue was solved on the batch_performance view at the SQL query.
