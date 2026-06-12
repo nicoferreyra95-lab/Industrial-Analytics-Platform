@@ -38,7 +38,7 @@ Having the tables, views were generated:
 **batch_performance**, to analyze the time consumed per batch;
 **KPIs**, to obtain the efficiency based on cycle times;
 **Dashboard**, to group our main variables in a more understandable way.
-Calculating time for each batch to be produced, an issue was discovered. Time resulted <0 when the batch finished after midnight. This issue was solved on the batch_performance view at the SQL query.
+Calculating time for each batch to be produced, an issue was discovered: time resulted <0 when the batch finished after midnight. This issue was solved on the batch_performance view at the SQL query.
 
 Dashboard:
 At the end, a Power BI was made to have a simple visual understanding of the situation in two pages:
